@@ -19,7 +19,7 @@ function App() {
          <Navbar/>
          <Switch>
            <Route  exact path="/" component={HomePage} />
-           <Route  exact path="/home" component={HomePage} />
+           <Route  path="/home" component={HomePage} />
            <Route  path="/CV"  component={CV} />
            <Route  path="/Portfolio" component={Portfolio} />
            <Route  path="/Project/:id" component={Project} />

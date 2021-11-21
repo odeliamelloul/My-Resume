@@ -1,5 +1,5 @@
 import React,{useEffect} from  "react";
-
+import {Link} from "react-router-dom"
 
 const Navbar=()=>
 {    
@@ -17,19 +17,19 @@ const Navbar=()=>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent" >
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                        <a className="nav-link active" aria-current="page" href="/home">HOME</a>
+                        <Link className="nav-link active" aria-current="page" to="/home">HOME</Link>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link"  href="/About">ABOUT ME</a>
+                        <Link className="nav-link"  to="/About">ABOUT ME</Link>
                         </li> 
                         <li className="nav-item">
-                        <a className="nav-link " href="/Portfolio">PORTFOLIO</a> 
+                        <Link className="nav-link " to="/Portfolio">PORTFOLIO</Link> 
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link " href="/CV">MY CV</a>
+                        <Link className="nav-link " to="/CV">MY CV</Link>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link " href="/Contact" >CONTACT</a>
+                        <Link className="nav-link " to="/Contact" >CONTACT</Link>
                         </li>
                     </ul>
                         <a  href="mailto:odeliamel04@gmail.com?subject=Subject&body=message%20goes%20here" aria-hidden="true"><i className="fa fa-envelope-o"></i></a>

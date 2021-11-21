@@ -14,7 +14,8 @@ const Project=({match})=>
     const  myDetails = findProject(match.params.id);
     return(
     <div className="Project">
-      <div>
+      
+      <div><img className="myDetails-image" src={myDetails.image} alt="" />
           <h3>{myDetails.name}</h3>
           <hr  /><br />
           <p>{myDetails.description}</p>
@@ -29,7 +30,7 @@ const Project=({match})=>
           </a>
           }
          </div>
-         <img className="myDetails-image" src={myDetails.image} alt="" />
+        
     </div>
     )
 
