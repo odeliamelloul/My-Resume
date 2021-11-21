@@ -17,7 +17,6 @@ body{
     color: rgb(131, 23, 107)!important;
     text-align: center;
     width: max-content;
-    height: 55vh;
     padding: 10px 5px;
     box-shadow: 0 0 10px rgb(0 0 0 / 10%);
     transition: .4s ease;
