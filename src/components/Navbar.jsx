@@ -20,16 +20,16 @@ const Navbar=()=>
                         <Link className="nav-link active" aria-current="page" to="/home">HOME</Link>
                         </li>
                         <li className="nav-item">
-                        <Link className="nav-link"  to="/About">ABOUT ME</Link>
+                        <Link className="nav-link"  to={{pathname:"/About"}}>ABOUT ME</Link>
                         </li> 
                         <li className="nav-item">
-                        <Link className="nav-link " to="/Portfolio">PORTFOLIO</Link> 
+                        <Link className="nav-link " to={{pathname:"/Portfolio"}}>PORTFOLIO</Link> 
                         </li>
                         <li className="nav-item">
-                        <Link className="nav-link " to="/CV">MY CV</Link>
+                        <Link className="nav-link " to={{pathname:"/CV"}}>MY CV</Link>
                         </li>
                         <li className="nav-item">
-                        <Link className="nav-link " to="/Contact" >CONTACT</Link>
+                        <Link className="nav-link "to={{pathname:"/Contact"}} >CONTACT</Link>
                         </li>
                     </ul>
                         <a  href="mailto:odeliamel04@gmail.com?subject=Subject&body=message%20goes%20here" aria-hidden="true"><i className="fa fa-envelope-o"></i></a>
