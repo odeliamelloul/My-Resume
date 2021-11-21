@@ -17,7 +17,7 @@ body{
     color: rgb(131, 23, 107)!important;
     text-align: center;
     width: max-content;
-    height: 50vh;
+    height: 55vh;
     padding: 10px 5px;
     box-shadow: 0 0 10px rgb(0 0 0 / 10%);
     transition: .4s ease;
@@ -140,7 +140,7 @@ hr{
       height:max-content;
       font-size: 20px;
       padding: 0px;
-      width: 90vw;
+      width: 85vw;
     }
   }
  
