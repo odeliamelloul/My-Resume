@@ -1,0 +1,58 @@
+.Project
+{
+    text-align: center;
+}
+.Project :nth-child(1):not(.btn-project)
+{
+margin: 0 auto;
+width: 53%;
+height: max-content;
+padding: 20px;
+}
+.Project h3
+{  
+    width: max-content !important;
+    margin: 10px auto!important;
+    color: rgb(122, 87, 122) !important;
+
+}
+.Project p,a{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.myDetails-image
+{
+    width: 100vw;
+    height:680px ;
+    object-fit: cover;
+    
+}
+.Project i{
+    max-width: max-content;
+    padding: 0 !important;
+}
+.btn-project
+{
+    padding: unset;
+    width:40%!important;
+    height: min-content !important;
+    background-color: rgb(251 235 238) !important;
+    color: #7a577a;
+    border: none;
+    border-radius: 12px;
+}
+
+@media only screen and (max-width: 737px) {
+   
+    .Project :nth-child(1):not(.btn-project)
+    {
+        width: 80vw;
+    }
+    .Project h3
+    {
+        font-size: 18px;
+        padding: 0 !important;
+    } 
+    
+}

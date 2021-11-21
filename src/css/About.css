@@ -1,0 +1,52 @@
+#About
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
+    background-color: rgb(248, 231, 248);
+    padding: 20px;
+    min-height: 78vh;
+}
+#About *
+{
+    margin: 0 auto;
+}
+#About header{
+    max-width: 600px;
+}
+
+#About p{
+    color: darkslateblue;
+    font-size: 22px;
+    font-weight: 400;
+
+}
+.tools
+{
+    max-width: 500px !important;
+    text-align: justify !important;
+}
+.tools p{
+    padding: 10px;
+}
+.tools{
+    padding-bottom: 70px;
+}
+u{
+    font-weight: 700;
+}
+.profileImg
+{
+    margin-top: 50px !important;
+    width: 150px;
+    height: 150px;
+}
+@media only screen and (max-width: 508px) {
+  
+    .tools
+    {
+        max-width: 350px !important;
+    }
+  }
+  

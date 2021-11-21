@@ -1,0 +1,155 @@
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  width: 100%;
+  text-align: center;
+}
+
+/* profile */
+
+.profile-header
+{
+    background: rgba(255,255,255,.7) !important;
+    color: rgb(131, 23, 107)!important;
+    font-weight: 700;
+    margin: 0 auto;
+    text-align: center;
+    width: max-content;
+    height: max-content;
+    padding: 10px 5px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    transition: .4s ease;
+}
+/* navbar */
+.navbar-collapse a
+{
+  color:rgb(248, 217, 223) !important;
+  font-weight: bold !important;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+}
+.navbar-collapse{
+  background-color: rgb(131 23 107);
+  width:100%;
+}
+
+.navbar-nav
+{
+ width: max-content;
+ margin: 0 auto;
+}
+/* home page */
+
+
+.navbar-nav .nav-link:hover
+{
+  color: rgb(231, 191, 252) !important;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url("../MarketingScriptInline400.ttf");
+}
+.logo
+{
+  text-shadow: 3px 3px #0f39c4;
+  color: rgb(236, 187, 236);
+  margin-left: 5px;
+  font-weight: none;
+  font-size: 50px;
+}
+hr{
+  width: 100px;
+  border: 2px darksalmon solid !important;
+  text-align: center !important;
+  margin: 0 auto !important;
+}
+.fa-envelope-o
+{
+  margin-right: 10px;
+  font-size: larger;
+
+}
+
+  .btn {
+    margin-top: 15px;
+    background: rgba(240, 223, 223, 0.8) !important; 
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .ContactHeader
+  {
+    padding-top: 50px;
+  }
+  .ContactHeader,.AboutHeader
+  {
+    color: darkmagenta ;
+  }
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: unset !important; 
+    padding-left: unset !important; 
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(131 23 107);
+    height: max-content;
+}
+.container-fluid i
+{
+  color: #cbbfaa;
+  outline: none !important;
+}
+.navbar-toggler
+{
+  margin: 5px;
+  border:  #cbbfaa 1px solid !important;
+}
+.container-fluid i:hover
+{
+  color: #4f78ff;
+}
+  @media only screen and (max-width: 556px) {
+    .profile-header {
+      max-width:90vw;
+     
+    }
+    .cv-diploma
+    {
+      flex-wrap: wrap;
+      justify-content: unset;
+    }
+  }
+ 
+  @import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
+  .home
+  {
+  background: url(https://www.pixelstalk.net/wp-content/uploads/2016/07/Computer-Science-Images-620x388.jpg);
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 60vh;
+  margin:  0;
+  position: relative;
+  
+  float: left;
+}
+
+
+  .mid .profile-header {
+    
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    margin: 0 !important;
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    font-size: 1.5rem;
+    transform: translate(-50%, -50%);
+  }
+  

@@ -1,0 +1,11 @@
+.footer
+{
+    background-color: rgb(131 23 107);
+    width:100%;
+    height:max-content;   /* Height of the footer */
+}
+.footer *
+{
+  margin: 0 auto;
+  color: aliceblue;
+}
