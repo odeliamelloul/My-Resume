@@ -24,10 +24,10 @@ const About=()=>
             <p className="tools">
             <p><u>Computer languages:</u> C++, C#, JavaScript,Java, SQL, Xojo, Python, Prolog, Assembly, Jack, VM, 
             XML,HTML.</p>
+            <p><u>Frameworks:</u> React JS, Node JS, .Net.,Express .</p>
             <p><u>stylesheet languages:</u> CSS,SASS</p> 
             <p><u>Environment:</u> Eclipse, Visual Studio 2017 & 2019, Visual Studio Code, PL/ SQL,
             Notepad ++, Xojo, PyCharm.</p> 
-            <p><u>Frameworks:</u> React JS, Node JS, .Net.,Express .</p>
             </p>
             </div>
        </header>
