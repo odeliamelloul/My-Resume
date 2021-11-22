@@ -14,15 +14,16 @@ const Project=({match})=>
     const  myDetails = findProject(match.params.id);
     return(
     <div className="Project">
-      
-      <div><img className="myDetails-image" src={myDetails.image} alt="" />
+              <img className="myDetails-image" src={myDetails.image} alt="" />
+
+      <div>
           <h3>{myDetails.name}</h3>
           <hr  /><br />
-          <p>{myDetails.description}</p>
+          <p className="description-project">{myDetails.description}</p>
           {myDetails.githubLink &&
             <a  href={myDetails.githubLink}>Click to see my project in Github</a>}
           {myDetails.link &&
-            <a  href={myDetails.link}>Click to see my project</a>}
+            <a  href={myDetails.link}> Click to see my project</a>}
 
           {myDetails.name=="Database Systems Project"  &&
           <a href={Prsentation} download>

@@ -2,13 +2,7 @@
 {
     text-align: center;
 }
-.Project :nth-child(1):not(.btn-project)
-{
-margin: 0 auto;
-width: 53%;
-height: max-content;
-padding: 20px;
-}
+
 .Project h3
 {  
     width: max-content !important;
@@ -22,11 +16,16 @@ padding: 20px;
 }
 
 .myDetails-image
-{
-    width: 100vw;
-    height:680px ;
+{   margin-bottom: 10px;
+    margin-top: 20px;
+    width: 50vw;
     object-fit: cover;
     
+}
+.description-project
+{   margin-bottom: 10px;
+    width: 50vw;
+    margin: 0 auto;
 }
 .Project i{
     max-width: max-content;
@@ -35,24 +34,33 @@ padding: 20px;
 .btn-project
 {
     padding: unset;
-    width:40%!important;
+    width:max-content;
+    padding: 10px;
     height: min-content !important;
     background-color: rgb(251 235 238) !important;
     color: #7a577a;
     border: none;
     border-radius: 12px;
 }
+.btn-project
+{
+    margin: 10px;
+}
 
 @media only screen and (max-width: 737px) {
    
-    .Project :nth-child(1):not(.btn-project)
+
+    .description-project,.myDetails-image
     {
         width: 80vw;
+        padding: 10px;
     }
     .Project h3
     {
         font-size: 18px;
+        width: 70vw !important;
         padding: 0 !important;
     } 
+
     
 }
