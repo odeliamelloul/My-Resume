@@ -2,7 +2,7 @@
 [
     {
         "name": "REACT PROJECT",
-        "description":"A basic e-commerce platform with React, Redux, Express & MongoDB - for the sale of raw materials for baking. You can view the recipes and purchase the recipe ingredients, in addition you can choose the products you have in the pantry and see the recipes that will suit them (I saw the need for this ..) And there will be many more features soon ...",
+        "description":"A basic e-commerce platform with React, Redux, Express & MongoDB - for the sale of raw materials for baking. You can view the recipes and purchase the recipe ingredients, in addition you can choose the products you have in the pantry and see the recipes that will suit them , And  more ...",
         "image":"https://www.koolmaxgroup.com/blog/wp-content/uploads/2017/08/430afc50e8ad68594de9d1b020f99072.jpg",
         "language":"",
         "link":"https://baker-land.herokuapp.com/",
