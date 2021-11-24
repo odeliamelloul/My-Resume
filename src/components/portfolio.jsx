@@ -20,7 +20,7 @@ const Portfolio=()=>
                         </Link>
                 ) }                  
                </div> 
-               <p className="p-4 m-auto"><a href="https://github.com/odeliamelloul?tab=repositories">Click here to view more projects in my GitHub account</a> </p>
+               <p className="p-4 m-auto"><a href="https://github.com/odeliamelloul?tab=repositories">Click here to view more projects on my GitHub account</a> </p>
 
             </div> 
           </div>

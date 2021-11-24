@@ -21,9 +21,10 @@ const Project=({match})=>
           <hr  /><br />
           <p className="description-project">{myDetails.description}</p>
           {myDetails.githubLink &&
-            <a  href={myDetails.githubLink}>Click to see my project in Github</a>}
+            <a  href={myDetails.githubLink}><img src="https://img.icons8.com/nolan/32/arrow.png"/> see my project on Github</a>}
+            <br />
           {myDetails.link &&
-            <a  href={myDetails.link}> Click to see my project</a>}
+            <a  href={myDetails.link}><img src="https://img.icons8.com/nolan/32/arrow.png"/> visit the site</a>}
 
           {myDetails.name=="Database Systems Project"  &&
           <a href={Prsentation} download>
